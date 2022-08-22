@@ -17,10 +17,15 @@ end = '2022-08-17'
 st.title('Stock Price Prediction')
 
 user_input = st.text_input('Enter Stock Ticker', '^GSPC')
-#stock = yf.Ticker(user_input)
 
-#company_name = stock.info['longName']
-#st.subheader(company_name)
+stock_info = yf.Ticker(user_input).info
+# stock_info.keys() for other properties you can explore
+company_name = stock_info['shortName']
+st.subheader(company_name)
+market_price = stock_info['regularMarketPrice']
+previous_close_price = stock_info['regularMarketPreviousClose']
+st.write('market price : ', market_price)
+st.write('previous close price : ', previous_close_price)
 
 df = data.DataReader(user_input, 'yahoo', start, end)
 
