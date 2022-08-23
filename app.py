@@ -195,7 +195,7 @@ else:
         #df = yf.download(user_input, start, end)
         df = df.reset_index()
         fig = go.Figure(
-            data=go.Scatter(x=df.index, y=df['Adj Close'])
+            data=go.Scatter(x=df.index, y=df['adj close'])
         )
         fig.update_layout(
             title={
