@@ -23,8 +23,8 @@
 
 #### Technical Analysis
 * **1. Moving average convergence & divergence** :- It is a trend-following momentum indicator that shows the relationship between two moving averages of a security's price
-* MACD Formula
-\text{MACD}=\text{12-Period EMA }-\text{ 26-Period EMA}MACD=12-Period EMA − 26-Period EMA
+* MACD Formula:-
+**MACD=12-Period EMA − 26-Period EMA**
 
 * ![Moving_Average](https://user-images.githubusercontent.com/92113558/186102928-8a7e8b7a-96ec-4f16-b294-b5118e517529.png)
 
@@ -100,9 +100,9 @@ The app is developed using streamlit library in python.
 ![App Screenshot](https://user-images.githubusercontent.com/56593219/175295481-76829f59-9ccd-477c-921c-4d4a1f4072c9.png)
 
 **User interface**
-* ![Screenshot (6)](https://user-images.githubusercontent.com/92113558/186107579-fd2fe605-7f2e-4071-b212-45b4a0cf36f2.png)
-* ![Screenshot (7)](https://user-images.githubusercontent.com/92113558/186107651-3e586ef0-550e-4abc-a06a-a71b8491bb6d.png)
-* ![Screenshot (11)](https://user-images.githubusercontent.com/92113558/186107741-de412ad8-e94a-4dc4-a216-ba2dda1065cb.png)
+* ![Screenshot (6)](https://user-images.githubusercontent.com/92113558/186108718-bbd0ece5-a590-46c0-88d8-961cc5d1e323.png)
+* ![Screenshot (7)](https://user-images.githubusercontent.com/92113558/186108775-62e8ad45-f9ae-4b36-be1b-18fe20e01445.png)
+* ![Screenshot (11)](https://user-images.githubusercontent.com/92113558/186108823-4c944b83-23fb-4746-871e-c59a597983b4.png)
 
 
 
